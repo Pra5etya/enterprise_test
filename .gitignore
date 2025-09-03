@@ -1,0 +1,18 @@
+# App
+app/__pycache__
+app/routes/__pycache__
+app/models/__pycache__
+app/extension/__pycache__
+app/services/__pycache__
+
+# Config
+config/__pycache__
+
+# Log
+log
+
+# Script
+script
+
+# Win Env
+win_env
