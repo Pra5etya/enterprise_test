@@ -11,7 +11,9 @@ def register_config(app):
 
     # Hanya log "Restart" ketika proses utama berjalan setelah restart
     if os.environ.get('WERKZEUG_RUN_MAIN') == 'true':
-        logger.info(f"{"="  * 30} LOGGER STARTING POINT {"="  * 30} \n")
+        boundary = "="  * 30
+
+        logger.info(f"{boundary} LOGGER STARTING POINT {boundary} \n")
         logger.info("Flask is restarting...")
         logger.info("Log Start ... \n")
 
